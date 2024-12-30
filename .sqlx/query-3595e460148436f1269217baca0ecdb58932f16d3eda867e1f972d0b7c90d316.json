@@ -1,0 +1,12 @@
+{
+  "db_name": "SQLite",
+  "query": "\n        INSERT INTO pixel_hits (ip_address, user_agent, camo_id, timestamp)\n        VALUES (?, ?, ?, ?)\n        ",
+  "describe": {
+    "columns": [],
+    "parameters": {
+      "Right": 4
+    },
+    "nullable": []
+  },
+  "hash": "3595e460148436f1269217baca0ecdb58932f16d3eda867e1f972d0b7c90d316"
+}

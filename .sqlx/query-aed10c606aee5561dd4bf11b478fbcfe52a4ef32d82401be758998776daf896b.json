@@ -1,0 +1,32 @@
+{
+  "db_name": "SQLite",
+  "query": "\n        SELECT timestamp, camo_id, user_agent\n        FROM pixel_hits\n        ORDER BY timestamp DESC\n        LIMIT 10\n        ",
+  "describe": {
+    "columns": [
+      {
+        "name": "timestamp",
+        "ordinal": 0,
+        "type_info": "Datetime"
+      },
+      {
+        "name": "camo_id",
+        "ordinal": 1,
+        "type_info": "Text"
+      },
+      {
+        "name": "user_agent",
+        "ordinal": 2,
+        "type_info": "Text"
+      }
+    ],
+    "parameters": {
+      "Right": 0
+    },
+    "nullable": [
+      false,
+      true,
+      true
+    ]
+  },
+  "hash": "aed10c606aee5561dd4bf11b478fbcfe52a4ef32d82401be758998776daf896b"
+}
